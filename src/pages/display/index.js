@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ShowTableData from "./ShowTableData";
 import axios from "axios";
-import Layout from "../../component/layout"
+
 
 const DisplayPage = () => {
     const [populationSurveyData, setPopulationSurveyData] = useState([])
