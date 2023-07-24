@@ -29,6 +29,7 @@ const ShowTableData = ({ populationSurveyData ,setPopulationSurveyData}) => {
     
     return (<>
  <div className=" mt-3">
+    {populationSurveyData ?
         <table>
             <tr>
                 <th>ID</th>
@@ -57,6 +58,9 @@ const ShowTableData = ({ populationSurveyData ,setPopulationSurveyData}) => {
             })}
 
         </table>
+        : 
+        <h5>Loading....</h5>
+    }
         </div>
 
     </>)
