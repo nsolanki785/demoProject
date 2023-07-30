@@ -13,10 +13,6 @@ function App() {
     <Routes>
        <Route path='/' element={<HomePage/>} />
        <Route path='/display' element={<DisplayPage/>} />
-  
-        
-       {/* <Route path="/adduser" element={<Adduser />} />
-       <Route path="/login" element={<Login/>}/> */}
      </Routes>
     </BrowserRouter>
   );

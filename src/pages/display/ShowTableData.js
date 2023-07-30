@@ -11,8 +11,6 @@ const ShowTableData = ({ populationSurveyData ,setPopulationSurveyData}) => {
     if (showBtn=="YUp") {
        const filterDataDown =  populationSurveyData.sort((a,b)=>b[type] - a[type])
          setPopulationSurveyData(filterDataDown)
-      
-    
         }
     else if (showBtn == "Up") {
         const filterDataDown =  populationSurveyData.sort((a,b)=>b[type] - a[type])
